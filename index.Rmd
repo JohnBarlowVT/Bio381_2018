@@ -1,0 +1,7 @@
+---
+title: "Homepage"
+output: 
+  html_document:
+    self_contained: no
+---
+Initial website for GitHub project
