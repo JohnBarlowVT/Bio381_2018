@@ -1,7 +1,14 @@
 ---
-title: "Homepage"
+title: "BIO 381 Homepage"
+author: "Computational Biology - John Barlow"
+date: "Spring 2018"
 output: 
   html_document:
     self_contained: no
 ---
 Initial website for GitHub project
+
+## Course Links
+* [Course Webpage](https://gotellilab.github.io/Bio381/)
+* [Lauren Ash Github](https://lvash.github.io/Bio381_2018/)
+
