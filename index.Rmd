@@ -1,14 +1,18 @@
 ---
 title: "BIO 381 Homepage"
-author: "Computational Biology - John Barlow"
+author: "Computational Biology"
 date: "Spring 2018"
 output: 
   html_document:
     self_contained: no
 ---
-Initial website for GitHub project
+
+### John Barlow
+* Email: john.barlow@uvm.edu
+
+<p style="text-align:center;"><img src="CNS little flower.jpg"></p>
 
 ## Course Links
 * [Course Webpage](https://gotellilab.github.io/Bio381/)
-* [Lauren Ash Github](https://lvash.github.io/Bio381_2018/)
+* [Lauren Ash (course TA) course web page](https://lvash.github.io/Bio381_2018/)
 
