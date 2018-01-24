@@ -16,3 +16,7 @@ output:
 * [Course Webpage](https://gotellilab.github.io/Bio381/)
 * [Lauren Ash (course TA) course web page](https://lvash.github.io/Bio381_2018/)
 
+## Homework
+### Homework 2
+<p style="text-align:center;"><img src="asignment 2 flow diagram.png"></p>
+
