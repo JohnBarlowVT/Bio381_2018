@@ -1,0 +1,9 @@
+---
+title: "Homework 2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+![](asignment 2 flow diagram.png)
