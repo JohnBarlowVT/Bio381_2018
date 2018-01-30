@@ -31,18 +31,19 @@ $$\sum_[i=1}^S{n_i}=N$$
 Escaping the backslash
 $$\backslash a \le b \backslahs$$
 
-```{r, echo=TRUE, eval=FALSE}
+
+```r
 library(ggplot2)
 waterTemp <- runif(50)
 planktonAbun <- runif(50)
 qplot(x=waterTemp, y=planktonAbun)
 # print (waterTemp)
 # head(waterTemp)
-
 ```
 
 Now we can add text here, add a little `markdown` formatting
 
-```{r, echo=TRUE, eval=FALSE}
+
+```r
 qplot(waterTemp)
 ```
