@@ -1,0 +1,94 @@
+---
+title: "Homework 4"
+output:
+ html_document:
+    keep_md: yes
+    self_contained: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1. Suppose x = 1.1, a = 2.2, and b = 3.3. Assign each expression to the value of the variable zand print the value stored in z. 
+
+x=1.1
+x
+a=2.2
+a
+b=3.3
+b
+za=x^a^b
+za
+zb=(x^a)^b
+zb
+zc=(3*x^3)+(2*x^2)+1
+zc
+ceiling(zc)
+floor(zc)
+trunc(zc, digits=2)
+
+round(zc, digits = 0)
+signif(zc, digits = 2)
+
+zd=trunc((zc-floor(zc))*10)
+zd
+
+# 2. create these vectors 
+#(1,2,3,4,5,6,7,8,7,6,5,4,3,2,1)
+#(1,2,2,3,3,3,4,4,4,4,5,5,5,5,5)
+#(5,4,4,3,3,3,2,2,2,2,1,1,1,1,1)
+
+vecA<- c(1:8)
+vecA
+vecB<-seq(from=7, to=1)
+vecB
+vecC<-c(vecA,vecB)
+vecC
+
+vecD<-c(1:5)
+vecD
+rep(x=vecD, times=vecD)
+vecE<-seq(from=5, to=1)
+vecE
+rep(x=vecE, times=vecD)
+
+# 3. Create a vector of two random uniform numbers. In a spatial map, these can be interpreted as x and y coordinates that give the location of an individual (such as a marked forest tree in a plot that has been mapped). Using one of R’s inverse trigonometry functions (asin(), acos(), or atan()), convert these numbers into polar coordinates (If you don’t know what polar coordinates are, read about them on the web or in your calculus textbook).
+vecF=runif(2, min=0, max=100)
+vecF
+x= vecF[1]
+x
+y=vecF[2]
+r=sqrt((x^2)+(y^2))
+r
+t=atan2(y,x)
+t
+cor_x=r*cos(t)
+cor_y=r*sin(t)
+
+# 4. Suppose that queue <- c("sheep", "fox", "owl", "ant") and that queue represents the animals that are lined up to enter Noah’s Ark, with the sheep at the front of the line. Using R expressions, update the queue successively as
+queue <- c("sheep", "fox", "owl", "ant")
+
+# a. the serpent arrives;
+queue <- c(queue, "serpent")
+queue
+
+# b. the sheep enters the ark;
+queue <- queue [2:5]
+queue
+
+# c. the donkey arrives and talks his way to the front of the line;
+queue <- c("donkey", queue)
+queue
+
+#d. the serpent gets impatient and leaves;
+queue <- queue [2:5]
+
+#e. the owl gets bored and leaves;
+remove<- c("owl")
+queue %in% remove
+queue [! queue %in% remove]
+
+#f. the aphid arrives and the ant invites him to cut in line.
+
+# g. Finally, determine the position of the aphid in the line.
