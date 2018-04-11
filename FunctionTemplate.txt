@@ -1,0 +1,9 @@
+##########################################################
+# avoid a buch of tyoing by setting up this text function
+##########################################################
+# FUNCTION: FunctionName
+# Input: x
+# Ouput: y
+#--------------------------------------------------------
+
+function <- function() { return("testing........ FunctionName")}
